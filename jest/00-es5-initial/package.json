@@ -8,7 +8,8 @@
     "test:api:local:module": "node ./tests/api/runner.js local module",
     "test:api:develop:module": "node ./tests/api/runner.js develop module",
     "test:api:develop:health": "node ./tests/api/runner.js develop health",
-    "test:api:develop:smoke": "node ./tests/api/runner.js develop smoke"
+    "test:api:develop:smoke": "node ./tests/api/runner.js develop smoke",
+    "test:api:prod:module": "node ./tests/api/runner.js prod module"
   },
   "keywords": [],
   "author": "",

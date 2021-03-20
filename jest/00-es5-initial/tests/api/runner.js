@@ -14,10 +14,10 @@ switch (myArgs[0]) {
   case "develop":
     envFile = "./environments/develop.postman_environment.json";
     break;
-  case "stg":
+  case "stage":
     envFile = "./environments/stage.postman_environment.json";
     break;
-  case "prd":
+  case "prod":
     envFile = "./environments/prod.postman_environment.json";
     break;
   default:
