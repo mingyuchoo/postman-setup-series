@@ -1,0 +1,27 @@
+allow-uncaught: false
+async-only: false
+bail: false
+check-leaks: false
+color: true
+delay: false
+diff: true
+exit: false
+extension:
+  - ts
+forbid-only: false
+forbid-pending: false
+full-trace: false
+growl: false
+inline-diffs: false
+parallel: true
+recursive: false
+reporter: spec
+require: ts-node/register
+retries: 1
+slow: 75
+sort: false
+spec: src/**/*.spec.ts
+timeout: false
+trace-warnings: true
+ui: bdd
+watch: false

@@ -23,7 +23,7 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-post-files)
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -33,7 +33,7 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/
+build/Release
 
 # Dependency directories
 node_modules/
@@ -70,6 +70,7 @@ yarn.lock
 
 # dotenv environment variables file
 .env
+.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -118,8 +119,5 @@ dist
 cypress/**/videos
 cypress/**/screenshots
 
-# macos
+# for macos
 .DS_Store
-
-# docker
-docker/

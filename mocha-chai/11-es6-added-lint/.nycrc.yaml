@@ -1,0 +1,18 @@
+---
+all: true
+check-coverage: true
+extension:
+  - ".js"
+exclude:
+  - src/**/*.spec.js
+include:
+  - src/**/*.js
+reporter:
+  - text
+  - html
+instrument: true
+sourceMap: true
+branches: 85
+functions: 85
+lines: 85
+statements: 85

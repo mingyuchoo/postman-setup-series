@@ -1,0 +1,19 @@
+{
+  "name": "10-es6-initial",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "coverage": "nyc npm run test",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "newman": "^5.2.2",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}

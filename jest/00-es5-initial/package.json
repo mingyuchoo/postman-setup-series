@@ -1,0 +1,21 @@
+{
+  "name": "00-es5-initial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "jest",
+    "test:api:local:module": "node ./tests/api/runner.js local module",
+    "test:api:develop:module": "node ./tests/api/runner.js develop module",
+    "test:api:develop:health": "node ./tests/api/runner.js develop health",
+    "test:api:develop:smoke": "node ./tests/api/runner.js develop smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.1.6",
+    "jest": "^26.6.3",
+    "newman": "^5.2.2"
+  }
+}
