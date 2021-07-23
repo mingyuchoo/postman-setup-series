@@ -1,9 +1,18 @@
 # 01-es5-added-lint
 
-## 실행 방법
 
+## How to install modules
+
+```bash
+yarn install
+rm -rf node_modules
+yarn install --offline
 ```
-$ npm run lint
-$ npm run test
-$ npm run coverage
+
+## How to run
+
+```bash
+yarn lint
+yarn test
+yarn coverage
 ```

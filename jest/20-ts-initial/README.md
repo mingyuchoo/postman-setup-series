@@ -1,15 +1,25 @@
 # 20-ts-initial
 
-## 실행 방법
+## How to install modules
+
+```bash
+yarn install
+rm -rf node_modules
+yarn install --offline
+```
+
+## How to run
+
+```bash
+yarn test
+```
+
+## How to create jest config file (Optional)
 
 ```
-$ npm run test
-```
+npx jest --init
 
-## jest 설정 파일 생성 방법 (선택사항)
+# or
 
-```
-$ npx jest --init
-또는
-$ npx ts-jest config:init
+npx ts-jest config:init
 ```

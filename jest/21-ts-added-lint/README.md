@@ -1,16 +1,26 @@
 # 21-ts-added-lint
 
-## 실행 방법
+## How to install modules
 
-```
-$ npm run lint
-$ npm run test
+```bash
+yarn install
+rm -rf node_modules
+yarn install --offline
 ```
 
-## jest 설정 파일 생성 방법 (선택사항)
+## How to run
 
+```bash
+yarn lint
+yarn test
 ```
+
+## How to create jest config file (Optional)
+
+```bash
 $ npx jest --init
-또는
+
+# or
+
 $ npx ts-jest config:init
 ```

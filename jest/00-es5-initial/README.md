@@ -1,7 +1,15 @@
 # 01-es5-initial
 
-## 실행 방법
+## How to install modules
 
+```bash
+yarn install
+rm -rf node_modules
+yarn install --offline
 ```
-$ npm run test
+
+## How to run
+
+```bash
+yarn test
 ```
