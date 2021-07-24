@@ -94,7 +94,7 @@ jobs:
           node-version: 16
           cache: yarn
       - run: cd mocha-chai/00-es5-initial; yarn install
-      - run: cd mocha-chai/00-es5-initial; yarn test:unit
+      - run: cd mocha-chai/00-es5-initial; yarn test
   mocha-chai-01-es5-added-lint:
     name: 01-es5-added-lint
     runs-on: ubuntu-latest
