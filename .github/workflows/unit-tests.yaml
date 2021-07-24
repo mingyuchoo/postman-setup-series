@@ -82,3 +82,84 @@ jobs:
       - run: cd jest/21-ts-added-lint; yarn install
       - run: cd jest/21-ts-added-lint; yarn lint
       - run: cd jest/21-ts-added-lint; yarn test
+  mocha-chai-00-es5-initial:
+    name: 00-es5-initial
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source files
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+          cache: yarn
+      - run: cd mocha-chai/00-es5-initial; yarn install
+      - run: cd mocha-chai/00-es5-initial; yarn test:unit
+  mocha-chai-01-es5-added-lint:
+    name: 01-es5-added-lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source files
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+          cache: yarn
+      - run: cd mocha-chai/01-es5-added-lint; yarn install
+      - run: cd mocha-chai/01-es5-added-lint; yarn lint
+      - run: cd mocha-chai/01-es5-added-lint; yarn test
+  mocha-chai-10-es6-initial:
+    name: 10-es6-initial
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source files
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+          cache: yarn
+      - run: cd mocha-chai/10-es6-initial; yarn install
+      - run: cd mocha-chai/10-es6-initial; yarn test
+  mocha-chai-11-es6-added-lint:
+    name: 11-es6-added-lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source files
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+          cache: yarn
+      - run: cd mocha-chai/11-es6-added-lint; yarn install
+      - run: cd mocha-chai/11-es6-added-lint; yarn lint
+      - run: cd mocha-chai/11-es6-added-lint; yarn test
+  mocha-chai-20-ts-initial:
+    name: 20-ts-initial
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source files
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+          cache: yarn
+      - run: cd mocha-chai/20-ts-initial; yarn install
+      - run: cd mocha-chai/20-ts-initial; yarn test
+  mocha-chai-21-ts-added-lint:
+    name: 21-ts-added-lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source files
+        uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+          cache: yarn
+      - run: cd mocha-chai/21-ts-added-lint; yarn install
+      - run: cd mocha-chai/21-ts-added-lint; yarn lint
+      - run: cd mocha-chai/21-ts-added-lint; yarn test
