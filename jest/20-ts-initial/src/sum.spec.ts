@@ -1,4 +1,3 @@
-import { TestScheduler } from "jest";
 import sum from "./sum";
 
 test("adds 1 + 2 to equals 3", () => {

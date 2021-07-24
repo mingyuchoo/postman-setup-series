@@ -27,7 +27,7 @@ jobs:
           cache: yarn
       - run: cd jest/01-es5-added-lint; yarn install
       - run: cd jest/01-es5-added-lint; yarn lint
-      - run: cd jest/01-es5-added-lint; yarn test:unit
+      - run: cd jest/01-es5-added-lint; yarn test
   jest-10-es6-initial:
     name: 10-es6-initial
     runs-on: ubuntu-latest
