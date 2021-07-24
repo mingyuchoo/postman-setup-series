@@ -1,5 +1,5 @@
 name: unit-tests
-on: [push, pull-request]
+on: [push, pull_request]
 jobs:
   jest-00-es5-initial:
     name: 00-es5-initial
