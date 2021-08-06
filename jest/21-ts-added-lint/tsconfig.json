@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "types": ["node", "jest"],
-    "target": "ES2019",
-    "lib": ["ES2019"],
+    "target": "esnext",
+    "lib": ["esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -17,6 +17,6 @@
     "outDir": "dist",
     "sourceMap": true
   },
-  "include": ["src", "jest.config.ts"],
+  "include": ["src", "tests", "jest.config.ts"],
   "exclude": ["node_modules"]
 }
