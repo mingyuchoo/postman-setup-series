@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
